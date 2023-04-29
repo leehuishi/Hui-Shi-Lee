@@ -19,5 +19,11 @@ git remote add origin git@github.com:leehuishi/Hui-Shi-Lee.git -- link to main
 
 git push -u origin main -- push files to main branch
 
+Link to branch ----------------------------------
+git branch -m Hui-Shi
+git fetch origin
+git branch -u origin/Hui-Shi
+git remote set-head origin -a
+
 
 
